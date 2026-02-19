@@ -26,7 +26,7 @@ export default function Home() {
 <div className="flex justify-center w-full mb-8">
   <div className="w-60 h-60 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
     <img
-      src="/profile.jpg"
+      src="/projects/Profile.jpeg"
       alt="Profile"
       className="w-full h-full object-cover 
                  transition duration-500 hover:scale-110"
