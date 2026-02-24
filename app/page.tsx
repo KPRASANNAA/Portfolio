@@ -14,6 +14,9 @@ export default function Home() {
           <a href="#certifications" className="hover:text-white">
   Certifications
 </a>
+          <a href="#Achievements" className="hover:text-white">
+  Achievements
+</a>
           <a href="#resume" className="hover:text-white">
   Resume
 </a>
@@ -26,7 +29,7 @@ export default function Home() {
 <div className="flex justify-center w-full mb-8">
   <div className="w-60 h-60 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
     <img
-      src="/projects/Profile.jpeg"
+      src="/projects/Profile.png"
       alt="Profile"
       className="w-full h-full object-cover 
                  transition duration-500 hover:scale-110"
@@ -36,26 +39,22 @@ export default function Home() {
 
 
 
-
-
-
-
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center mt-20 px-6
                     animate-[fadeIn_1.5s_ease-in-out]">
 
         <h2 className="text-5xl font-extrabold">
-          Hi, I'm <span className="text-blue-400">Shital Singh</span> 👋
+          Hi, I'm <span className="text-blue-400">K Prasannaa</span> 🎈
         </h2>
 
         <p className="mt-4 text-lg text-gray-400 max-w-xl">
-            IOT engineer & Embedded System 
+            IOT and Embedded Systems Engineer
         </p>
 
           {/* Welcome Sentence (Put Before Tech Pills) */}
   <p className="mt-6 text-gray-300 text-lg max-w-2xl leading-relaxed">
     Welcome to my portfolio. I create IoT-driven Embedded systems for automation,
-    safety, and connected environments.
+    safety, and connected environments. Electric Vehicle and Industrial IoT enthusiast.
   </p>
         
           {/* Tech Stack Pills */}
@@ -84,7 +83,9 @@ export default function Home() {
     <span className="px-6 py-2 rounded-full bg-[#151a3a] border border-indigo-500 text-indigo-200 font-medium">
       IoT Platforms
     </span>
-
+    <span className="px-6 py-2 rounded-full bg-[#151a3a] border border-indigo-500 text-indigo-200 font-medium">
+      MicroPython
+    </span>
   </div>
 
 
@@ -111,11 +112,7 @@ export default function Home() {
       </h3>
 
       <p className="text-gray-300 leading-relaxed text-lg">
-        I am an IoT and Embedded Systems Developer with a strong passion for
-        designing and building smart, innovative solutions using technologies
-        like Arduino, Raspberry Pi, sensors, and microcontrollers. I enjoy
-        working on projects that combine automation, safety, and real-time
-        monitoring to solve practical real-world problems.
+        I am an IoT and Embedded Systems Developer specializing in real-time intelligent systems using Raspberry Pi, embedded hardware, and computer vision. My projects focus on automation, system integration, and scalable monitoring architectures that bridge hardware and software for efficient and reliable operation. I am also an Electric Vehicle and battery systems enthusiast, deeply interested in battery monitoring, energy management, and embedded safety systems. I aim to develop advanced IoT and embedded solutions that improve efficiency, reliability, and sustainability in industrial and energy-driven applications.
       </p>
     </div>
 
@@ -128,9 +125,7 @@ export default function Home() {
       </h3>
 
       <p className="text-gray-300 leading-relaxed text-lg">
-        I believe in creating technology that is not only functional but also
-        meaningful. My focus is on clean embedded design, IoT innovation, and
-        real-time solutions that improve safety, efficiency, and everyday life.
+        I am focused on developing efficient embedded and IoT solutions, including real-time monitoring, automation, and battery and energy management systems for modern engineering environments..
       </p>
     </div>
 
@@ -141,9 +136,7 @@ export default function Home() {
         Career Objective 🎯
       </h3>
       <p className="text-gray-300 mt-4 leading-relaxed">
-        My goal is to build a career in Industrial IoT and Embedded Systems,
-        focusing on real-time monitoring, automation, and worker safety
-        solutions.
+        I aspire to build a career in Industrial IoT and Embedded Systems, focusing on the development of real-time monitoring and automation solutions. My goal is to design intelligent embedded architectures that improve operational efficiency, reliability, and system performance. I am particularly interested in creating scalable solutions that enhance safety and enable smarter decision-making in modern industrial environments.
       </p>
     </div>
 
@@ -153,9 +146,7 @@ export default function Home() {
         Looking for Opportunities 🔍
       </h3>
       <p className="text-gray-300 mt-4 leading-relaxed">
-        I am actively seeking internship opportunities in IoT, Embedded Systems,
-        and Smart Industrial Automation where I can apply my skills in sensor
-        integration, Raspberry Pi, and real-time safety monitoring.
+        I am seeking opportunities in IoT and Embedded Systems to develop real-time automation and monitoring solutions using Raspberry Pi, embedded platforms, and sensor integration. My interests include Industrial IoT, EV and battery monitoring systems, and scalable embedded architectures. I am eager to contribute to building reliable, intelligent, and practical engineering solutions
       </p>
     </div>
 
@@ -185,20 +176,20 @@ export default function Home() {
     {/* Card 1 */}
     <SkillBox
       title="Programming 💻"
-      skills={["C++", "Python", "Embedded C" , "MicroPython" , "JavaScript" , "HTML" , "CSS" , "Crystal programming language"]}
+      skills={["C++", "Python", "Embedded C" , "MicroPython"  ]}
     />
 
     {/* Card 2 */}
     <SkillBox
       title="Tools 🛠️"
-      skills={["Arduino IDE", "Raspberry Pi os", "Wokwi", "Blynk io platform", "Proteus 8 Professional","Thinkspeak IoT platform"]}
+      skills={["Arduino IDE", "Raspberry Pi os", "Wokwi", "Blynk io platform", "Proteus 8 Professional","Thinkspeak IoT platform", "Fusion360","Ubuntu","WSL"]}
     />
 
  
     {/* Card 3 */}
     <SkillBox
       title="Core Competencies ⭐"
-      skills={["Effective Communication", "Team Collaboration", "Problem Solving", "Time Management", "Adaptability", "Critical Thinking", "Leadership", "Creativity"]}
+      skills={["Leadership","Effective Communication", "Team Collaboration", "Problem Solving", "Time Management", "Adaptability"]}
     />
   
     {/* Learning Journey Box */}
@@ -217,7 +208,7 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
 
   {/* Learning Chips */}
   <div className="flex flex-wrap gap-3">
-    {["Docker", "IoT Device Security", "Firebase", "TensorFlow Lite", "HTTP/REST APIs"].map(
+    {["IoT Device Security", "Raw-Tcp", "TensorFlow Lite", "HTTP/REST APIs"].map(
       (tech, index) => (
         <span
           key={index}
@@ -242,92 +233,40 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <ProjectCard
-            title="Smart Vacuum Cleaner Robot"
-            desc=" An automatic cleaning robot built using Arduino to reduce manual cleaning effort.  
-                  It is designed to detect obstacles and navigate smoothly around the environment.  
-                  The robot performs efficient floor cleaning using motors and sensor integration.  
-                  This project demonstrates embedded system design, automation, and IoT-based innovation.  "
-            img="/projects/Pic1.png"
-            githubLink="https://github.com/shital008-JH/Smart-Vacuum-Cleaner-Robot"
+            title="Weather Monitoring System using Raspberry Pi 3"
+            desc=" Designed and developed an IoT-based Weather Monitoring 
+            System using Raspberry Pi 3 to measure temperature, humidity, 
+            and atmospheric pressure. Integrated DHT11 and BMP280 sensors with a 16×2 LCD
+             for real-time local display. Implemented cloud connectivity using ThingSpeak for 
+             remote monitoring and data visualization. Demonstrates skills in embedded systems, 
+             sensor interfacing, Python programming, and IoT cloud integration. "
+
+            img="/projects/weth.png"
+            githubLink="https://github.com/KPRASANNAA/Weather-Monitoring-sys"
           />
 
           <ProjectCard
-            title="Home Automation System using Raspberry Pi"
-            desc=" A smart home automation system built using Raspberry Pi and sensors.  
-                  It enables remote control of home appliances, monitoring of environmental conditions, and automated responses to events.  
-                  This project showcases skills in embedded systems, IoT development, and practical automation solutions."
-            img="/projects/Pic3.png"
-            githubLink="https://github.com/shital008-JH/Home-Automation-System-using-Raspberry-Pi"
+            title="Smart Attendance Marking System(anti-spoof) "
+            desc=" AI-powered Smart Attendance Marking System built to automate and secure classroom attendance using facial recognition.
+            Designed with a dual-camera IR-based anti-spoofing mechanism to prevent proxy and photo attacks.
+            Implements server-side processing with Raspberry Pi-based capture modules over LAN (TCP communication).
+            Engineered with a scalable architecture transitioning from Proof of Concept to product-ready deployment."
+            img="/projects/att.jpeg"
+            githubLink="https://github.com/KPRASANNAA/Attendance-Marking-System"
           />
           
-          <ProjectCard
-            title="Networked ESP32 AI Voice Assistant"
-            desc=" This project is an ESP32-based networked voice assistant device powered by remote LLM inference.  
-                  It captures voice input, sends it to a server for AI processing, and returns intelligent responses in real time.  
-                  The system includes configurable role memory, allowing personalized and context-aware interactions.  
-                  This project demonstrates skills in embedded systems, IoT networking, and AI integration with edge devices." 
-            img="/projects/Pic4.jpeg"
-            githubLink="https://github.com/shital008-JH/Networked-ESP32-AI-Voice-Assistant"
+           <ProjectCard
+            title="Smart Attendance Marking System Using Raspberry Pi Zero"
+            desc=" Raspberry Pi Zero 2W-based Smart Attendance System integrating facial recognition and RFID authentication.
+            Enabled on-device face registration, dataset creation, and local model training using OpenCV.
+            Implemented Ethernet-based LAN communication for secure attendance data transfer.
+            Designed as a low-cost embedded prototype that laid the foundation for a scalable, product-oriented attendance platform."
+            img="/projects/pizero.png"
+            githubLink="https://github.com/KPRASANNAA/Attendance-Marking-System-Raspberry-pi-Zero"
           />
-
-          <ProjectCard
-            title="Automatic fan control system using Arduino"
-            desc="An automatic fan control system built using Arduino to regulate fan speed based on temperature and humidity.
-                  The system uses sensors to monitor environmental conditions and adjusts fan speed accordingly.
-                  This project demonstrates skills in embedded programming, sensor integration, and practical automation solutions."
-            img="/projects/Pic5.jpeg"
-            githubLink="https://github.com/shital008-JH/Automatic-fan-control-system-using-Arduino"
-          />
-
-        <ProjectCard
-            title="NeuroShift-Embedded"
-            desc=" NeuroShift-Embedded is an innovative project focused on intelligent embedded system development.  
-                  It combines microcontroller-based hardware with smart decision-making capabilities.  
-                  The system is designed to improve automation, efficiency, and real-time responsiveness.  
-                  This project highlights skills in embedded programming, IoT integration, and modern technology solutions."
-            img="/projects/Pic2.png"
-            githubLink="https://github.com/shital008-JH/NeuroShift-Embedded"
-            />
-
-            <ProjectCard
-            title="MindMirror"
-            desc="MindMirror is a smart project designed to support mental wellness through self-reflection and mood tracking.  
-                  It helps users record thoughts, monitor emotional patterns, and gain insights over time.  
-                The system can integrate AI-based analysis to provide personalized suggestions and supportive feedback.  
-                This project demonstrates skills in innovative problem-solving, human-centered design, and intelligent application development. "
-            img="/projects/Pic6.jpeg"
-            githubLink="https://github.com/shital008-JH/MindMirror"
-            />
-
-            <ProjectCard
-            title=" Crypto-Pulse"
-            desc=" Crypto-Pulse is a web-based application that provides real-time cryptocurrency price tracking.  
-                  It fetches live market data and displays the latest values of popular coins like Bitcoin and Ethereum.  
-                  The project includes an interactive and user-friendly interface for monitoring price changes and trends.  
-                  This project demonstrates skills in API integration, web development, and real-time data handling. "
-            img="/projects/Pic7.jpeg"
-            githubLink="https://github.com/shital008-JH/CryptoPulse"
-            />
-
-            <ProjectCard
-            title="Weather-App"
-            desc=" A weather application that provides real-time weather updates and forecasts for any location.  
-                  It integrates with a weather API to fetch current conditions, temperature, humidity, and other relevant data.  
-                  The app features a clean and intuitive UI that allows users to easily access and interpret weather information.  
-                  This project demonstrates skills in API integration, responsive UI design, and user experience optimization."
-            img="/projects/Pic8.png"
-            githubLink="https://github.com/shital008-JH/Weather-App"
-            />
-
-            <ProjectCard
-            title="Timer-Alarm"
-            desc=" A timer and alarm application that allows users to set custom timers and alarms.  
-                  The app features a clean and intuitive interface for managing time-based events.  
-                  It supports multiple alarms, countdown timers, and customizable sound settings.  
-                  This project demonstrates skills in UI/UX design, event handling, and user interaction optimization."
-            img="/projects/Pic9.png"
-            githubLink="https://github.com/shital008-JH/Timer-Alarm"
-            />
+          
+ 
+            
         </div>
       </section>
 
@@ -343,62 +282,92 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
   <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
     <CertificationFlipCard
-      title="Full-Throttle Race"
-      issuer="ADVITIYA (IIT Ropar)"
+      title="B-CERT"
+      issuer="NCC (National Cadet Corps)"
       date="February 2025"
       skills={[
-        "Racecraft",
-        "Hardware Communication",
-        "Circuit Design",
+        "Leadership",
+        "Discipline",
+        "Team building",
       ]}
-      img="/projects/IIT.png"
-      link="https://drive.google.com/file/d/1N30eJ2CfvJo3HDInhzx-h063trQo2J98/view?usp=sharing"
+      img="/projects/bcert.png"
+      link="https://drive.google.com/file/d/1Npeg21ISYVfbzR2__lBpeVGESe7HN9ZH/view?usp=sharing"
+    />
+    <CertificationFlipCard
+      title="LPU Hackathon 2025"
+      issuer="LPU(SEEE)"
+      date="March 2025"
+      skills={[
+        "Image Preprocessing",
+        "Network Architecture Design",
+        "Deep Learning with TensorFlow",
+      ]}
+      img="/projects/lpuhackathon.png"
+      link="https://drive.google.com/file/d/11sF841iQ9p2pa7NUPyfzvx-TOizk3WH4/view?usp=sharing"
     />
 
+
+
     <CertificationFlipCard
-      title="LPU Hackathon (Hardware Based)"
-      issuer="LPU (School of EEE)"
-      date="March 2025"
+      title="Innotek 2025"
+      issuer="LPU(Student welfare wing) "
+      date="April 2025"
       skills={[
         "Microcontroller Programming",
         "Hardware Coding",
         "Circuit Design",
       ]}
-      img="/projects/LPU.png"
-      link="https://drive.google.com/file/d/1CtSglRqPM2GmBr0wEAx7yQ1qZbt1g8Ig/view?usp=sharing"
+      img="/projects/innotek.png"
+      link="https://drive.google.com/file/d/1k_7kfzGRzkYv26QEHuXwB8d2zixB9pt7/view?usp=sharing"
     />
 
+    
+    
+
+    
+
     <CertificationFlipCard
-      title="Bootcamp on AI"
-      issuer="Smarted"
-      date="June 2025"
+      title="Full Throttle-race 2024"
+      issuer="IIT Ropar (Techfest) "
+      date="February 2024"
       skills={[
-        "Data Preprocessing",
-        "Model Deployment",
-        "Deep Learning with TensorFlow",
+        "Hardware design",
+        "Embedded Programming",
+        "Team Collaboration",
       ]}
-      img="/projects/AI.jpeg"
-      link="https://drive.google.com/file/d/1W0mV7w868kQv2E_Ql_SFk8NtbEes8yT9/view?usp=sharing"
+      img="/projects/advitiya.jpeg"
+      link="https://drive.google.com/file/d/1X2OEq38MiD7yQCD0xD-OKt3TLK3lDX2H/view?usp=sharing"
     />
 
-    
-
-    
 
     <CertificationFlipCard
-      title="Event Organizer Recognition – Hack Node India"
-      issuer="Hack Node India (Lovely Professional University)"
-      date="August 2025"
+      title=" Master 3D Modeling Workshop "
+      issuer="Resolute Lab India "
+      date="March 2024"
+      skills={[
+      "3D Modeling",
+      "Assembly and Product Design",
+      "Hardware Integration",
+      ]}
+      img="/projects/resolutelabs.jpeg"
+      link="https://drive.google.com/file/d/1RsSIDKKexEkJsUojak6uLzoz8eNnI5Us/view?usp=sharing"
+    />
+
+
+    
+    <CertificationFlipCard
+      title="Kritrima 1.0"
+      issuer="LPU(DSR)"
+      date="May 2024"
       skills={[
         "Event Management",
-        "Community Engagement",
-        "Team Coordination",
+        "Team Leadership",
+        "Organizational Skills",
       ]}
-      img="/projects/HAIN.jpeg"
-      link="https://drive.google.com/file/d/11NMM5DghwaTrtZJjJurgORuwLzXdu3tq/view?usp=sharing"
+      img="/projects/kritrima.png"
+      link="https://drive.google.com/file/d/1SgRgktrT_4Z6ikjR-_-JvtZHhYMWklLf/view?usp=sharing"
     />
-
-
+    
     <CertificationFlipCard
       title=" Short-Term Course on IoT "
       issuer="LPU Human Resource Development Center "
@@ -408,31 +377,120 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
       "IoT Fundamentals",
       "Hardware Integration",
       ]}
-      img="/projects/IOT.png"
-      link="https://drive.google.com/file/d/1kQu3aUjIHeQV0QWdotMwEKLGUyf4G-Eb/view?usp=sharing"
+      img="/projects/iotcourse.png"
+      link="https://drive.google.com/file/d/1cp9VbjwYO_VLX4ENbSAA0jIak_OVATbD/view?usp=sharing"
     />
 
-
-    
     <CertificationFlipCard
-      title="Computer Science 101"
-      issuer="Udemy"
+      title=" CATC-42 "
+      issuer="NCC (National Cadet Corps) "
+      date="October 2024"
+      skills={[
+      "Leadership",
+      "Weapon Handling",
+      "Physical Fitness",
+      ]}
+      img="/projects/catc.jpeg"
+      link="https://drive.google.com/file/d/1we3pz1YBeVx10gkA7ek5kaISU-ypeKO-/view?usp=sharing"
+    />
+
+    <CertificationFlipCard
+      title=" Embedded C Programming "
+      issuer="Udemy "
       date="October 2023"
       skills={[
-        "Computational Thinking",
-        "Algorithms",
-        "Logical Thinking",
+      "Microcontroller Programming",
+      "IoT Fundamentals",
+      "Hardware Integration",
       ]}
-      img="/projects/cse101.png"
-      link="https://drive.google.com/file/d/1L_1dpPzLj_N-K8mp7t2Vg1O4XVEeBMtw/view?usp=sharing"
+      img="/projects/embeddedudemy.jpeg"
+      link="https://drive.google.com/file/d/10k_R2Q1Q5dN3dubM6yCimjjObfVUpGKb/view?usp=sharing"
     />
 
+    <CertificationFlipCard
+      title=" Meeting Management "
+      issuer="Silicon Forest "
+      date="October 2023"
+      skills={[
+      "Effective Communication",
+      "Time Management",
+      "Crowd management",
+      ]}
+      img="/projects/siliconforest.jpeg"
+      link="https://drive.google.com/file/d/10IFwGb6Cg7JkzBtSHzt1jCNKZg_JeBkU/view?usp=sharing"
+    />
+
+    <CertificationFlipCard
+      title=" Building IoT Things "
+      issuer="Udemy "
+      date="November 2023"
+      skills={[
+      "Industrial IoT",
+      "IoT Fundamentals",
+      "Sensor Integration",
+      ]}
+      img="/projects/iotudemy.jpeg"
+      link="https://drive.google.com/file/d/1g-yu8wTiOZcp_1qbJfjsAw2XxIK-VZ-F/view?usp=sharing"
+    />
+
+    <CertificationFlipCard
+      title="Robotics Olympiad Quiz 2023"
+      issuer="RTRA "
+      date="November 2023"
+      skills={[
+      "RObotics Concepts",
+      "Embedded Systems",
+      "Automation",
+      ]}
+      img="/projects/quiz.png"
+      link="https://drive.google.com/file/d/1jTFLyoWpSPNPAFnrvo-Vud4HNdKhBDh6/view?usp=sharing"
+    />
   </div>
 
 </section>
 
 
+{/* ================= ACHIEVEMENTS SECTION ================= */}
+<section id="Achievements" className="mt-32 px-10">
 
+  {/* Heading */}
+  <div className="text-center mb-16">
+    <h2 className="text-5xl font-extrabold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+      Achievements
+    </h2>
+
+    <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto mt-4 rounded-full"></div>
+  </div>
+
+  {/* Cards */}
+  <div className="space-y-8 max-w-5xl mx-auto">
+
+    <AchievementCard
+      icon="🕺"
+      title="Group-Dance (LPU-NCC)"
+      desc="Secured a 1st position in the group dance competition organized by NCC-LPU."
+      date="Sep 2024"
+    />
+
+    <AchievementCard
+      icon="🪖"
+      title="Squad-Drill (02 PB BN JAL NCC)"
+      desc="Secured the 1st position Squad Drill in the NCC drill competition organized by NCC-DAV."
+      date="Sep 2024"
+    />
+
+    <AchievementCard
+      icon="⚽"
+      title="Football (LPU-NCC)"
+      desc="Secured a 3rd position in the football competition organized by NCC."
+      date="Sep 2024"
+    />
+
+     
+
+  </div>
+
+</section>
 
 {/* ================= RESUME SECTION ================= */}
 <section id="resume" className="mt-32 px-10">
@@ -459,7 +517,7 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
              hover:border-blue-500 hover:text-white transition"
 >
   📧
-  <span className="text-sm">shitalsingh044@gmail.com</span>
+  <span className="text-sm">prasannaa2904@gmail.com</span>
 </a>
 
 
@@ -467,12 +525,12 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
   <div className="flex items-center gap-2 px-5 py-2 rounded-full 
                   bg-[#0b1220] border border-gray-700 text-gray-200 shadow-md">
     📱
-    <span className="text-sm">+91-8341152243</span>
+    <span className="text-sm">+91-9677583129</span>
   </div>
 
   {/* LinkedIn */}
   <a
-    href="https://linkedin.com/in/shitalsingh2808"
+    href="https://linkedin.com/in/k-prasannaa-6b6826291/"
     target="_blank"
     className="flex items-center gap-2 px-5 py-2 rounded-full 
                bg-[#0b1220] border border-gray-700 text-gray-200 shadow-md 
@@ -483,7 +541,7 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
 
   {/* GitHub */}
   <a
-    href="https://github.com/shital008-JH"
+    href="https://github.com/KPRASANNAA"
     target="_blank"
     className="flex items-center gap-2 px-5 py-2 rounded-full 
                bg-[#0b1220] border border-gray-700 text-gray-200 shadow-md 
@@ -525,7 +583,7 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
           </p>
 
           <p className="text-gray-400 mt-2">
-            CGPA: 7.0+
+            CGPA: 7.0
           </p>
         </div>
 
@@ -541,21 +599,21 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
 
         <div>
           <h3 className="text-2xl font-bold text-blue-400">
-            Narayana College
+            Kendriya Vidyalaya, Air Force Station
           </h3>
-          <p className="text-gray-400 mt-1">Andhra Pradesh, India</p>
+          <p className="text-gray-400 mt-1">Tamil Nadu, India</p>
 
           <p className="mt-4 text-gray-200">
             Intermediate (12th)
           </p>
           
           <p className="mt-4 text-gray-200">
-            Percentage: 70%
+            Percentage: 69.6%
           </p>
         </div>
 
         <span className="px-4 py-1 bg-blue-900 text-blue-300 rounded-full text-sm">
-          2021 - 2022
+          2022 - 2023
         </span>
       </div>
     </div>
@@ -566,16 +624,16 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
 
         <div>
           <h3 className="text-2xl font-bold text-blue-400">
-            D.A.V School
+            Kendriya Vidyalaya, Air Force Station
           </h3>
-          <p className="text-gray-400 mt-1">Andhra Pradesh, India</p>
+          <p className="text-gray-400 mt-1">Tamil Nadu, India</p>
 
           <p className="mt-4 text-gray-200">
             Matriculation (10th)
           </p>
           
           <p className="mt-4 text-gray-200">
-            Percentage: 80%
+            Percentage: 93.3%
           </p>
         </div>
 
@@ -589,7 +647,7 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
   {/* Download Button */}
   <div className="flex justify-center mt-16">
     <a
-      href="/resume/Shital_Resume.pdf"
+      href="/resume/K_PRASANNAA.pdf"
       download
       className="px-10 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl shadow-lg transition"
     >
@@ -669,31 +727,31 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
         {/* Email */}
         <ContactItem
           title="✉️Email"
-          value="shitalsingh044@gmail.com"
+          value="prasannaa2904@gmail.com"
         />
 
         {/* Phone */}
         <ContactItem
           title="📞Phone"
-          value="+91-8341152243"
+          value="+91-9677583129"
         />
 
         {/* LinkedIn */}
         <ContactItem
           title="🔗LinkedIn"
-          value="linkedin.com/in/shitalsingh2808"
+          value="linkedin.com/in/k-prasannaa-6b6826291/"
         />
 
         {/* GitHub */}
         <ContactItem
           title="💻GitHub"
-          value="github.com/shitalsingh044"
+          value="github.com/KPRASANNAA"
         />
       </div>
 
       {/* Follow Me */}
       <div className="mt-10 border-t border-gray-700 pt-7">
-        <p className="text-gray-400 mb-4">Let's Connect & Collaborate 🙂</p>
+        <p className="text-gray-400 mb-4">Let’s Build Intelligent Systems Together ⚔️</p>
 
       
       </div>
@@ -704,7 +762,7 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
 
       {/* Footer */}
       <footer className="text-center py-6 text-gray-500 border-t border-gray-800">
-        © 2026 Shital. All rights reserved.
+        © 2026 Prasannaa. All rights reserved.
       </footer>
     </main>
   );
@@ -820,6 +878,49 @@ function CertificateCard({
   );
 }
 
+function AchievementCard({
+  icon,
+  title,
+  desc,
+  date,
+}: {
+  icon: string;
+  title: string;
+  desc: string;
+  date: string;
+}) {
+  return (
+    <div className="bg-[#0b1220] border border-gray-700 rounded-2xl p-8 flex items-start justify-between hover:border-blue-500 transition shadow-lg">
+
+      {/* Left */}
+      <div className="flex items-start gap-6">
+
+        {/* Icon Circle */}
+        <div className="w-14 h-14 flex items-center justify-center rounded-full bg-blue-900 text-2xl">
+          {icon}
+        </div>
+
+        {/* Text */}
+        <div>
+          <h3 className="text-xl font-bold text-blue-400">
+            {title}
+          </h3>
+
+          <p className="text-gray-300 mt-2 max-w-xl leading-relaxed">
+            {desc}
+          </p>
+        </div>
+
+      </div>
+
+      {/* Date */}
+      <div className="bg-purple-900 text-purple-300 px-4 py-1 rounded-full text-sm whitespace-nowrap">
+        {date}
+      </div>
+
+    </div>
+  );
+}
 
 /* Project Card */
 function ProjectCard({
