@@ -328,7 +328,7 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
       skills={[
         "Battery Management Systems",
         "Health Monitoring and Diagnostics",
-        "Embedded Systems for Battery Monitoring",
+        "Embedded Systems",
       ]}
       img="/projects/intern.jpg"
       link="https://drive.google.com/file/d/1PJ3pGpmmN9ONDqg2B7DxMJUMiHhRx0Zy/view?usp=sharing"
@@ -449,7 +449,7 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
       issuer="RTRA "
       date="November 2023"
       skills={[
-      "RObotics Concepts",
+      "Robotics Concepts",
       "Embedded Systems",
       "Automation",
       ]}
