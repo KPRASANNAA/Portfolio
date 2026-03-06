@@ -321,10 +321,21 @@ bg-gradient-to-b from-gray-900 to-black shadow-lg">
       link="https://drive.google.com/file/d/1k_7kfzGRzkYv26QEHuXwB8d2zixB9pt7/view?usp=sharing"
     />
 
-    
-    
+<CertificationFlipCard
+      title="Internship as a Battery Engineer at Golden Power Care"
+      issuer="Golden Power Care"
+      date="August 2025"
+      skills={[
+        "Battery Management Systems",
+        "Health Monitoring and Diagnostics",
+        "Embedded Systems for Battery Monitoring",
+      ]}
+      img="/projects/intern.jpg"
+      link="https://drive.google.com/file/d/1PJ3pGpmmN9ONDqg2B7DxMJUMiHhRx0Zy/view?usp=sharing"
+    />
 
     
+
 
     <CertificationFlipCard
       title="Full Throttle-race 2024"
